@@ -15,7 +15,8 @@ const Testimonials = () => {
         Our Clients send us a bunch of smilies with our services and we love them
     </Typography>
 
-    <Box sx={{
+    <Box spacing={3}
+    sx={{
         display: 'flex',
         justifyContent: 'space-evenly',
         '@media (max-width: 1100px)': {

@@ -24,7 +24,7 @@ function GrowMenu() {
         onClick={handleClick}
         onMouseOver={handleClick}
       >
-        <h4>Legal Document Support</h4> <ArrowDropDownIcon/>
+        <h4>Grow your E-Commerce</h4> <ArrowDropDownIcon/>
       </Button>
       <Menu
         anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
@@ -36,13 +36,13 @@ function GrowMenu() {
         MenuListProps={{ onMouseLeave: handleClose }}
         getContentAnchorEl={null}
       >
-        <MenuItem onClick={handleClose}> <Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce'>Account Mangement </Link> </MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce'>Product Strategy</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce'>Pricing Optimization</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce'>Visibility Boosting </Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce'> Time-Bound Delivery</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce'> Data Analysis</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce'> Account Reinstatement</Link></MenuItem>
+        <MenuItem onClick={handleClose}> <Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce/acc-manage'>Account Mangement </Link> </MenuItem>
+        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce/product'>Product Strategy</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce/pricing'>Pricing Optimization</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce/visibility'>Visibility Boosting </Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce/time '> Time-Bound Delivery</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce/data'> Data Analysis</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce/acc-re'> Account Reinstatement</Link></MenuItem>
       </Menu>
     </div>
   );

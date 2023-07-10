@@ -36,8 +36,8 @@ function SetUpEcomMenu() {
         MenuListProps={{ onMouseLeave: handleClose }}
         getContentAnchorEl={null}
       >
-        <MenuItem onClick={handleClose}> <Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/set-up-your-e-commerce-bussiness'>E-Commerce Onboarding </Link> </MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/set-up-your-e-commerce-bussiness'>Global Services</Link></MenuItem>
+        <MenuItem onClick={handleClose}> <Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/set-up-your-e-commerce-bussiness/e-com'>E-Commerce Onboarding </Link> </MenuItem>
+        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/set-up-your-e-commerce-bussiness/global'>Global Services</Link></MenuItem>
         
 
       </Menu>

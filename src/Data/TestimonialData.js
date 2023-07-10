@@ -15,14 +15,7 @@ export const TestimonialData = [
         content: "Thanks to 7etech's excellent service, our products from Ganpati Enterprises are now professionally showcased on various online marketplaces. The seamless integration and quick turnaround time have significantly boosted our sales.",
     },
 
-    
-    {
-        name: "Mr. Rajesh Kumar",
-        image: "https://img.icons8.com/?size=512&id=108639&format=png",
-        company: "Utsav Sarees",
-        heading: "Exceptional Support and Tailored Solutions: 7 E tech Revolutionized Our Sports E-commerce Business!",
-        content: "7etech's expertise in listing products on major marketplaces has been a game-changer for our business. We've experienced increased visibility, higher conversions, and improved brand recognition for Neha Sarees.",
-    },
+  
 
     
     {

@@ -116,10 +116,10 @@ const Footer = () => {
 
         <Typography className='footer-links' sx={{ color: 'grey' }}>
           <ul>
-            <li><Link> Home </Link></li>
-            <li><Link> About Us </Link></li>
-            <li><Link> Contact Us </Link></li>
-            <li><Link> Blogs </Link></li>
+            <li><Link to='/'> Home </Link></li>
+            <li><Link to='/about'> About Us </Link></li>
+            <li><Link to='/contact'> Contact Us </Link></li>
+            <li><Link to='/blog'> Blogs </Link></li>
           </ul>
         </Typography>
       </Container>

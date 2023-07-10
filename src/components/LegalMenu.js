@@ -27,7 +27,7 @@ function LegalMenu() {
         <h4>Legal Document Support</h4> <ArrowDropDownIcon/>
       </Button>
       <Menu
-        anchorOrigin={{ vertical:"bottom", horizontal:"center" }}
+        anchorOrigin={{ vertical:"bottom", horizontal:"left" }}
         transformOrigin={{ vertical: "bottom", horizontal: "left" }}
         id="simple-menu"
         anchorEl={anchorEl}
@@ -36,14 +36,14 @@ function LegalMenu() {
         MenuListProps={{ onMouseLeave: handleClose }}
         getContentAnchorEl={null}
       >
-        <MenuItem onClick={handleClose}> <Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support'>GST & PAN Registration </Link> </MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support'>MSME Registration</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support'>Trademark Registration</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support'> FSSAI Registration</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support'> Import & Export Registration</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support'>APOB/VPOB Registration</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support'> Tax Filling</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support'> Other Services</Link></MenuItem>
+        <MenuItem onClick={handleClose}> <Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support/gst-pan'>GST & PAN Registration </Link> </MenuItem>
+        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support/msme'>MSME Registration</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support/trade'>Trademark Registration</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support/fssai'> FSSAI Registration</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support/import'> Import & Export Registration</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support/apob'>APOB/VPOB Registration</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support/tax'> Tax Filling</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support/other'> Other Services</Link></MenuItem>
       </Menu>
     </div>
   );
