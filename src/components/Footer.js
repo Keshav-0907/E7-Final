@@ -14,7 +14,7 @@ const Footer = () => {
       {/* about + social  */}
       <Container className='footer-about'>
 
-        <Container>
+        {/* <Container> 
           <Grid>
             <Typography sx={{
               display: 'flex',
@@ -31,7 +31,7 @@ const Footer = () => {
               At 7Etech, we are a results-driven e-commerce consulting agency that helps businesses to start and grow.
             </Typography>
           </Grid>
-        </Container>
+        </Container>*/}
 
         <Container>
           <Typography sx={{
@@ -46,7 +46,7 @@ const Footer = () => {
           <Grid sx={{
             display: 'flex',
             justifyContent: 'space-around',
-            margin: '10px'
+             marginTop:'60px',
 
           }}>
             <InstagramIcon sx={{
@@ -55,7 +55,7 @@ const Footer = () => {
               '&:hover': {
                 backgroundColor: '#FFB55F',
                 color: '#fff',
-                borderRadius: '20px',
+                borderRadius: '40px',
                 cursor: 'pointer'
 
               },

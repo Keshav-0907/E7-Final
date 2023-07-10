@@ -39,10 +39,10 @@ const App = () => {
         <Route path='/blog/key-enablers-for-growth' element={<KeyEnablers/>} />
         <Route path='/blog/future-of-e-retail-in-india' element={<FutureOfeRetail/>} />
         
-        <Route path='/services/legal-services' element={<LegalServices />} />
+        <Route path='/services/legal-support' element={<LegalServices />} />
         <Route path='/services/set-up-your-e-commerce-bussiness' element={<SetUpYourECom />} />
         <Route path='/services/imaging-and-cataloging-services' element={<ImagingAndCatalogingServices />} />
-        <Route path='/services/grow-your-e-commerce-sales' element={<GrowYourECom />} />
+        <Route path='/services/grow-your-e-commerce' element={<GrowYourECom />} />
 
       </Routes>
       <Footer />

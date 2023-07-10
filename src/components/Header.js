@@ -8,7 +8,7 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
-import logo from '../Assets/logo1.png'
+import logo from '../Assets/logo2 (1).png'
 import { Link } from "react-router-dom"
 import SimpleMenu from './SimpleMenu';
 

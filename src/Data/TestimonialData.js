@@ -1,17 +1,44 @@
 export const TestimonialData = [
     {
-        name: "Mr. Narendra Tyagi",
+        name: "Mr. Ravi Patel",
         image: "https://img.icons8.com/?size=512&id=108639&format=png",
-        company: "Bankey Bihari Industries",
+        company: "Madhur Handloom",
         heading: "Exceptional Service and Unwavering Support: 7 E tech is the Best E-commerce Solution Provider!",
-        content: "I am extremely pleased to provide this testimonial for 7 E tech. Their outstanding service and unwavering support were crucial in establishing our thriving e-commerce venture. They showcased exceptional expertise and professionalism, guiding us at every step. Their platform seamlessly integrated our unique requirements, providing intuitive design and powerful features. We highly recommend 7 E tech for a reliable e-commerce solution.",
+        content: "With 7etech e-commerce solutions, our business has expanded effortlessly. Our products from Madhur Handloom are now live on Amazon, Flipkart, Myntra, Ajio, and more, reaching a wider audience than ever before!",
     },
 
     {
-        name: "Mr. Rohan Agarwal",
+        name: "Ms. Priya Sharma",
         image: "https://img.icons8.com/?size=512&id=108639&format=png",
-        company: "Star Pro Sports",
+        company: "Ganpati Enterprises",
         heading: "Exceptional Support and Tailored Solutions: 7 E tech Revolutionized Our Sports E-commerce Business!",
-        content: "We are extremely satisfied with 7 E tech's instrumental role in our successful sports e-commerce launch. Their industry expertise, tailored solutions, and user-friendly platform, integrated with payment gateways and shipping providers, have contributed to our thriving business. Their responsive customer support is commendable. Highly recommended for sports e-commerce solutions.",
+        content: "Thanks to 7etech's excellent service, our products from Ganpati Enterprises are now professionally showcased on various online marketplaces. The seamless integration and quick turnaround time have significantly boosted our sales.",
+    },
+
+    
+    {
+        name: "Mr. Rajesh Kumar",
+        image: "https://img.icons8.com/?size=512&id=108639&format=png",
+        company: "Utsav Sarees",
+        heading: "Exceptional Support and Tailored Solutions: 7 E tech Revolutionized Our Sports E-commerce Business!",
+        content: "7etech's expertise in listing products on major marketplaces has been a game-changer for our business. We've experienced increased visibility, higher conversions, and improved brand recognition for Neha Sarees.",
+    },
+
+    
+    {
+        name: "Ms. Neha Gupta",
+        image: "https://img.icons8.com/?size=512&id=108639&format=png",
+        company: " Vastram Boutique",
+        heading: "Exceptional Support and Tailored Solutions: 7 E tech Revolutionized Our Sports E-commerce Business!",
+        content: "The team at 7etech made the process of getting our products from Vastram Boutique live on Amazon, Flipkart, Myntra, and Ajio incredibly smooth. Their attention to detail and dedication to quality ensured our listings were optimized for success.",
+    },
+
+    
+    {
+        name: "Mr. Ankit Verma",
+        image: "https://img.icons8.com/?size=512&id=108639&format=png",
+        company: "Global Trading Co.",
+        heading: "Exceptional Support and Tailored Solutions: 7 E tech Revolutionized Our Sports E-commerce Business!",
+        content: "We are extremely satisfied with the e-commerce solutions provided by 7etech. Our products from Global Trading Co. are now effectively displayed on top marketplaces, resulting in a significant sales uplift and enhanced customer engagement.",
     },
 ]

@@ -24,7 +24,7 @@ function SimpleMenu() {
         onClick={handleClick}
         onMouseOver={handleClick}
       >
-        <h4>Serivces</h4> <ArrowDropDownIcon/>
+        <h4>Services</h4> <ArrowDropDownIcon/>
       </Button>
       <Menu
         anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
@@ -36,10 +36,10 @@ function SimpleMenu() {
         MenuListProps={{ onMouseLeave: handleClose }}
         getContentAnchorEl={null}
       >
-        <MenuItem onClick={handleClose}> <Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-services'>Legal Document Service </Link> </MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/set-up-your-e-commerce-bussiness'>Set-Up our E-Commerce Bussiness</Link></MenuItem>
+        <MenuItem onClick={handleClose}> <Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support'>Legal Document Support </Link> </MenuItem>
+        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/set-up-your-e-commerce-bussiness'>Set-Up your E-Commerce Bussiness</Link></MenuItem>
         <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/imaging-and-cataloging-services'>Imaging and Cataloging Services</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce-sales'>Grow your E-Commerce Sales</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce'>Grow your E-Commerce </Link></MenuItem>
 
       </Menu>
     </div>

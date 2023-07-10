@@ -83,7 +83,7 @@ const ImagingServices = () => {
                       minHeight: '50px',
                       fontWeight:'Light'
                     }}>
-                      {item.text.slice(0, 100)}... <span style={{color:'blue',  fontWeight: 'bold'}}>Read More</span>
+                      {item.text.slice(0, 100)}... <span style={{color:'blue',  fontWeight: 'bold'}}></span>
                     </Typography>
                   </Grid>
                   <BasicModal open={open} setOpen={setOpen}

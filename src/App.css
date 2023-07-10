@@ -90,7 +90,7 @@
 } */
 
 .video-container {
-  height: 524px;
+  height: 475px;
   width: 1520px;
   position: relative;
   object-fit: cover;
@@ -107,9 +107,9 @@ object-fit: cover;
 z-index: 0;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1250px) {
   .video-container {
-    height: 525px;
+    height: 440px;
   }
   
 }

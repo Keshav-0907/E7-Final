@@ -105,14 +105,14 @@ export const ServicesData = [
     },
     {
         imgURL:'https://ouch-cdn2.icons8.com/4iD34IECw6HsQ6rfQOdUKETmxhuaqgT-IHl57nS-SdA/rs:fit:256:197/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNzU5/LzI3MGUwODU2LWQy/M2UtNDhhNS04OTNl/LWVjODZkZjNmNmY3/My5wbmc.png',
-        title:'Video production',
+        title:'Video Production',
         headline: "Engaging Video Production for Elevated E-commerce Experiences",
         text: 'In the fast-paced world of e-commerce, video content has become a powerful tool for capturing attention, conveying messages, and driving conversions. At [Your Company Name], we specialize in creating engaging and high-quality videos that elevate your online presence and captivate your audience. Whether its product showcases, explainer videos, customer testimonials, or brand stories, our experienced team of video production experts ensures that every frame is crafted with creativity and precision. We handle the entire production process, from concept development and scriptwriting to filming, editing, and post-production. With our attention to detail and commitment to delivering exceptional videos, we help you showcase your products, tell your brand story, and connect with customers on a deeper level. Enhance your e-commerce experience with our professional video production services and stand out in the competitive online marketplace.',
         category: 'Imaging Service' 
     },
     {
         imgURL:'https://ouch-cdn2.icons8.com/4iD34IECw6HsQ6rfQOdUKETmxhuaqgT-IHl57nS-SdA/rs:fit:256:197/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNzU5/LzI3MGUwODU2LWQy/M2UtNDhhNS04OTNl/LWVjODZkZjNmNmY3/My5wbmc.png',
-        title:'Content writing',
+        title:'Content Writing',
         headline: "Compelling Content Writing for Engaging E-commerce Experiences",
         text: 'In the digital landscape of e-commerce, persuasive and captivating content is crucial for connecting with customers, establishing brand authority, and driving conversions. At E-7 Tech, we specialize in providing top-notch content writing services tailored specifically for e-commerce businesses. Our skilled team of writers understands the unique challenges and opportunities that come with selling products online. From attention-grabbing product descriptions and informative blog posts to engaging website copy and compelling social media content, we craft compelling narratives that resonate with your target audience and inspire action. With our expertise in SEO optimization and persuasive storytelling, we help you rank higher in search results, drive organic traffic, and maximize conversions. Trust us to handle your content writing needs, allowing you to focus on growing your e-commerce business and providing exceptional online experiences. Elevate your online presence with our compelling content writing services today.',
         category: 'Imaging Service' 
@@ -126,28 +126,28 @@ export const ServicesData = [
     },
     {
         imgURL:'https://ouch-cdn2.icons8.com/4iD34IECw6HsQ6rfQOdUKETmxhuaqgT-IHl57nS-SdA/rs:fit:256:197/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNzU5/LzI3MGUwODU2LWQy/M2UtNDhhNS04OTNl/LWVjODZkZjNmNmY3/My5wbmc.png',
-        title:'Content optimization',
+        title:'Content Optimization',
         headline: "Effective Content Optimization for Enhanced E-commerce Performance",
         text: 'In the competitive landscape of e-commerce, having well-optimized content is crucial for driving organic traffic, improving search rankings, and increasing conversions. At [Your Company Name], we specialize in providing effective content optimization services tailored specifically for e-commerce businesses. Our experienced team understands the intricacies of SEO and the importance of strategic keyword research, on-page optimization, and compelling copywriting. We analyze your existing content, identify areas for improvement, and implement targeted strategies to enhance your websites visibility and relevance to search engines. From optimizing product descriptions and category pages to creating SEO-friendly blog posts and landing page copy, we ensure your content is both user-friendly and search engine-friendly. With our content optimization expertise, we help you attract more qualified traffic, engage your audience, and ultimately boost your e-commerce performance. Trust us to handle your content optimization needs, allowing you to focus on growing your business and delivering exceptional online experiences. Elevate your content strategy with our effective content optimization services today.',
         category: 'Imaging Service' 
     },
     {
         imgURL:'https://ouch-cdn2.icons8.com/4iD34IECw6HsQ6rfQOdUKETmxhuaqgT-IHl57nS-SdA/rs:fit:256:197/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNzU5/LzI3MGUwODU2LWQy/M2UtNDhhNS04OTNl/LWVjODZkZjNmNmY3/My5wbmc.png',
-        title:'USP analysis',
+        title:'USP Analysis',
         headline: 'Strategic USP Analysis for Competitive E-commerce Advantage',
         text: 'In the highly competitive world of e-commerce, having a strong Unique Selling Proposition (USP) is vital for differentiating your brand and capturing the attention of customers. At [Your Company Name], we specialize in providing strategic USP Analysis services tailored specifically for e-commerce businesses. Our experienced team understands the importance of identifying and highlighting your unique strengths and value propositions that set you apart from competitors. Through in-depth market research, competitor analysis, and customer insights, we uncover the core elements that make your brand and products unique. We assess your current USP, refine it if needed, and develop a compelling messaging strategy that resonates with your target audience. With our USP Analysis services, we help you carve a distinctive position in the market, increase brand recognition, and drive customer loyalty. Trust us to handle your USP Analysis, allowing you to focus on growing your e-commerce business and gaining a competitive edge. Discover and leverage your unique strengths with our strategic USP Analysis services today.',
         category: 'Imaging Service' 
     },
     {
         imgURL:'https://ouch-cdn2.icons8.com/4iD34IECw6HsQ6rfQOdUKETmxhuaqgT-IHl57nS-SdA/rs:fit:256:197/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNzU5/LzI3MGUwODU2LWQy/M2UtNDhhNS04OTNl/LWVjODZkZjNmNmY3/My5wbmc.png',
-        title:'Product description writing',
+        title:'Product Description Writing',
         headline: "Compelling Product Description Writing for Enhanced E-commerce Sales",
         text: 'In the digital world of e-commerce, persuasive and well-crafted product descriptions are key to capturing the attention of potential customers and driving conversions. At [Your Company Name], we specialize in providing compelling product description writing services tailored specifically for e-commerce businesses. Our skilled team of writers understands the importance of persuasive language, engaging storytelling, and highlighting the unique features and benefits of your products. We meticulously research and analyze your products, target audience, and industry trends to create descriptions that not only inform but also entice and inspire purchase decisions. Whether you need concise and to-the-point descriptions or elaborate narratives that evoke emotions, we craft product descriptions that resonate with your customers and drive them to take action. Trust us to handle your product description writing needs, allowing you to focus on growing your business and maximizing your e-commerce sales. Enhance your product listings with our compelling product description writing services today.',
         category: 'Imaging Service' 
     },
     {
         imgURL:'https://ouch-cdn2.icons8.com/4iD34IECw6HsQ6rfQOdUKETmxhuaqgT-IHl57nS-SdA/rs:fit:256:197/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNzU5/LzI3MGUwODU2LWQy/M2UtNDhhNS04OTNl/LWVjODZkZjNmNmY3/My5wbmc.png',
-        title:'Storyboard representation',
+        title:'Storyboard Representation',
         headline: "Engaging Storyboard Representation for Immersive E-commerce Experiences",
         text: 'In the visually-driven world of e-commerce, capturing the attention of your audience and effectively conveying your brand message is crucial for success. At 7 E tech, we specialize in providing engaging storyboard representation services tailored specifically for e-commerce businesses. Our talented team of designers and creatives understands the power of storytelling and visual narratives in captivating your audience. We take your ideas, products, and brand vision and transform them into visually compelling storyboards that bring your concepts to life. With careful attention to detail and a focus on creating immersive experiences, we ensure that every frame tells a story and resonates with your target audience. Whether its showcasing new product launches, illustrating brand stories, or guiding customers through user experiences, our storyboard representations enhance your e-commerce journey and leave a lasting impact. Trust us to handle your storyboard representation needs, allowing you to focus on growing your business and delivering exceptional online experiences. Elevate your brands storytelling with our engaging storyboard representation services today.',
         category: 'Imaging Service' 
