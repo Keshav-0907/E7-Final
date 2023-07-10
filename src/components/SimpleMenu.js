@@ -4,6 +4,10 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { Link } from "react-router-dom";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import LegalMenu from "./LegalMenu";
+import ImageMenu from "./ImageMenu";
+import GrowMenu from "./GrowMenu";
+import SetUpEcomMenu from "./SetUpEcomMenu";
 
 function SimpleMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -36,10 +40,10 @@ function SimpleMenu() {
         MenuListProps={{ onMouseLeave: handleClose }}
         getContentAnchorEl={null}
       >
-        <MenuItem onClick={handleClose}> <Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support'>Legal Document Support </Link> </MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/set-up-your-e-commerce-bussiness'>Set-Up your E-Commerce Bussiness</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/imaging-and-cataloging-services'>Imaging and Cataloging Services</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce'>Grow your E-Commerce </Link></MenuItem>
+        <MenuItem onClick={handleClose}> <LegalMenu/> {/*<Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/legal-support'>Legal Document Support </Link> */} </MenuItem> 
+        <MenuItem onClick={handleClose}><SetUpEcomMenu/> {/*<Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/set-up-your-e-commerce-bussiness'>Set-Up your E-Commerce Bussiness</Link> */}</MenuItem>
+        <MenuItem onClick={handleClose}><ImageMenu/> {/*<Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/imaging-and-cataloging-services'>Imaging and Cataloging Services</Link> */}</MenuItem>
+        <MenuItem onClick={handleClose}><GrowMenu/> {/*<Link style={{ color: 'black',fontSize:'13px', textDecoration: 'none' }} to='/services/grow-your-e-commerce'>Grow your E-Commerce </Link> */}</MenuItem>
 
       </Menu>
     </div>
