@@ -62,7 +62,7 @@ export default function BasicModal(props) {
                     }}>
                         {title}
                         <Typography sx={{ fontSize: '10px', textAlign: "center" }}>
-                            Imaging Services &gt; {title}
+                             Services &gt; {title}
                         </Typography>
                     </Typography>
 

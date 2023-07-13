@@ -8,7 +8,7 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
-import logo from '../Assets/logobbg.png'
+import logo from '../Assets/logo3.png'
 import { Link } from "react-router-dom"
 import SimpleMenu from './SimpleMenu';
 
@@ -27,11 +27,11 @@ function ResponsiveAppBar() {
 
     return (
         <div className="nav-main">
-            <AppBar position="static" sx={{ borderRadius: '20px', background: 'white', height: '90px', width: '95%', margin: '10px 5px' }} >
+            <AppBar position="static" sx={{ borderRadius: '20px', background: 'white', height: '100px', width: '95%', margin: '10px 5px' }} >
                 <Container >
                     <Toolbar disableGutters >
                         <Link to='/'><img style={{
-                            width: '90px',
+                            width: '150px',
                             paddingTop: '7px'
                         }} src={logo} alt='err' /></Link>
                         <Typography

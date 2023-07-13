@@ -49,6 +49,7 @@ const Footer = () => {
              marginTop:'60px',
 
           }}>
+            <Link  to='https://instagram.com/sevenetech?igshid=MzNlNGNkZWQ4Mg=='>
             <InstagramIcon sx={{
               padding: '10px',
               color: 'grey',
@@ -60,6 +61,8 @@ const Footer = () => {
 
               },
             }}></InstagramIcon>
+            </Link >
+            <Link to='https://www.facebook.com/profile.php?id=100092264030077&mibextid=ZbWKwL'>
             <FacebookIcon sx={{
               padding: '10px',
               color: 'grey',
@@ -71,6 +74,8 @@ const Footer = () => {
 
               },
             }}></FacebookIcon>
+            </Link>
+            <Link to='https://wa.me/+917251070111' target='_blank'>
             <WhatsAppIcon sx={{
               padding: '10px',
               color: 'grey',
@@ -82,7 +87,8 @@ const Footer = () => {
 
               },
             }}></WhatsAppIcon>
-
+            </Link>
+              <Link to='https://www.linkedin.com/in/seven-tech-219684275'>
             <LinkedInIcon sx={{
               padding: '10px',
               color: 'grey',
@@ -96,6 +102,7 @@ const Footer = () => {
             }}>
 
             </LinkedInIcon>
+            </Link>
           </Grid>
 
         </Container>
