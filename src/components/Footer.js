@@ -150,7 +150,7 @@ const Footer = () => {
             textAlign: 'center'
 
           }}>
-            <p> D-1103, City Apartments, Aditya World City, Ghaziabad, Uttar Pradesh - 201002 </p>
+            <p> Shop No. 1, Ground Floor, Gaushala Road, New Mandi, Muzaffarnagar ,Uttar Pradesh - 251001 </p>
           </Typography>
 
           <Grid sx={{

@@ -6,7 +6,7 @@ export const BlogData = [
         url : '/blog/e-retail-market-and-shopper-dynamics',
         imgURL: 'https://cdn.pixabay.com/photo/2017/08/30/07/56/money-2696228_1280.jpg',
         date: '2nd March 2023',
-        author: 'Keshav malik',
+        author: 'Santosh Tyagi ',
         link:'/blog/e-retail-market-and-shopper-dynamics'
 
 
@@ -18,7 +18,7 @@ export const BlogData = [
         url: '/blog/key-enablers-for-growth',
         imgURL: 'https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img/https://blog.sathguru.com/wp-content/uploads/2021/02/Key-Enablers-Driving-Growth-of-FPOs-and-FPCs-1130x580.jpg',
         date: '5th April 2023',
-        author: 'Keshav malik',
+        author: 'Akash Chaudhary',
         link:'/blog/key-enablers-for-growth'
     },
     {
@@ -28,7 +28,7 @@ export const BlogData = [
         url: '/blog/future-of-e-retail-in-india',
         imgURL: 'https://www.innoraft.com/sites/default/files/styles/blog_original_size/public/2021-06/future-ecommerce-in-india.jpg',
         date: '14th May 2023',
-        author: 'Keshav malik',
+        author: 'Santosh Tyagi',
         link:'/blog/future-of-e-retail-in-india'
     }
 ]

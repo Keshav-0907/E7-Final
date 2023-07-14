@@ -84,7 +84,7 @@ const KeyEnablers = () => {
             color: '#fff',
           },
         }} variant="contained">
-          <Link style={{ color: 'black', textDecoration: 'none' }}> Previous Blog  </Link>
+          <Link to='/blog/e-retail-market-and-shopper-dynamics' style={{ color: 'black', textDecoration: 'none' }}> Previous Blog  </Link>
         </Button>
 
         <Button sx={{
@@ -97,7 +97,7 @@ const KeyEnablers = () => {
             color: '#fff',
           },
         }} variant="contained">
-          <Link style={{ color: 'black', textDecoration: 'none' }}> Next Vlog </Link>
+          <Link  to='/blog/future-of-e-retail-in-india' style={{ color: 'black', textDecoration: 'none' }}> Next Vlog </Link>
         </Button>
 
       </Grid>

@@ -83,22 +83,10 @@ const FutureOfeRetail = () => {
             color: '#fff',
           },
         }} variant="contained">
-          <Link style={{ color: 'black', textDecoration: 'none' }}> Previous Blog  </Link>
+          <Link to='/blog/key-enablers-for-growth'  style={{ color: 'black', textDecoration: 'none' }}> Previous Blog  </Link>
         </Button>
 
-        <Button sx={{
-          backgroundColor: '#FF971E',
-          color: '#fff',
-          borderRadius: '10px',
-          height: '35px',
-          '&:hover': {
-            backgroundColor: '#FFB55F',
-            color: '#fff',
-          },
-        }} variant="contained">
-          <Link style={{ color: 'black', textDecoration: 'none' }}> Next Vlog </Link>
-        </Button>
-
+        
       </Grid>
 
     </Container>
