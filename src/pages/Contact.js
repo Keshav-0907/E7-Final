@@ -91,17 +91,17 @@ const Contact = () => {
                         <form ref={form} onSubmit={sendEmail} className="form-main">
                             <label>First Name</label>
                             <input type="text" name="user_name" />
-                            <label>Phone Number</label>
-                            <input type="number" name="user_phone" />
+                            <label >Phone Number</label>
+                            <input type="phonenumber" name="phone" />
                             <label>Email</label>
-                            <input type="email" name="email" />
+                            <input type="email" name="user_email" />
                             <label>Type of service:</label>
-                            <select name="service" id="cars">
+                            <select name="user_value" id="cars">
                                 <option value="volvo">Please Select</option>
-                                <option value="Amazon Account Management">Amazon Account Management</option>
-                                <option value="Amazon Advertising">Amazon Advertising</option>
-                                <option value="Flipkart Account Management">Flipkart Account Management</option>
-                                <option value="Web Development">Web Development</option>
+                                <option value="Legal Document Support">Legal Document Support</option>
+                                <option value="Set-Up your E-Commerce Bussiness">Set-Up your E-Commerce Bussiness</option>
+                                <option value="Imaging and Cataloging Services">Imaging and Cataloging Services</option>
+                                <option value="Grow your E-Commerce">Grow your E-Commerce</option>
                             </select>
                             <label>Message</label>
                             <textarea name="message" />
