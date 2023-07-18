@@ -90,14 +90,14 @@ const Contact = () => {
                     }}>
                         <form ref={form} onSubmit={sendEmail} className="form-main">
                             <label>First Name</label>
-                            <input type="text" name="user_name" />
+                            <input type="text" name="user_name" required />
                             <label >Phone Number</label>
-                            <input type="phonenumber" name="phone" />
+                            <input type="number" name="user_phone" required />
                             <label>Email</label>
-                            <input type="email" name="user_email" />
+                            <input type="email" name="user_email"  required/>
                             <label>Type of service:</label>
-                            <select name="user_value" id="cars">
-                                <option value="volvo">Please Select</option>
+                            <select name="user_value" id="cars" required>
+                                <option >Please Select</option>
                                 <option value="Legal Document Support">Legal Document Support</option>
                                 <option value="Set-Up your E-Commerce Bussiness">Set-Up your E-Commerce Bussiness</option>
                                 <option value="Imaging and Cataloging Services">Imaging and Cataloging Services</option>

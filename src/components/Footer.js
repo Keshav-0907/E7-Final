@@ -150,7 +150,7 @@ const Footer = () => {
             textAlign: 'center'
 
           }}>
-            <p> Shop No. 1, Ground Floor, Gaushala Road, New Mandi, Muzaffarnagar ,Uttar Pradesh - 251001 </p>
+            <p> Shop No. 1, Ground Floor,155-C, Gher khatti, New Mandi, Muzaffarnagar ,Uttar Pradesh - 251001 </p>
           </Typography>
 
           <Grid sx={{
