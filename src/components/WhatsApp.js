@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 const WhatsApp = () => {
     return (
         <div className="whatsapp-button">
-            <Link to='https://wa.me/+917251070111' target='_blank'><FaWhatsapp className="whatsapp-icon" /></Link>
+            <Link to='https://wa.me/+919988000223' target='_blank'><FaWhatsapp className="whatsapp-icon" /></Link>
         </div>
     )
 }

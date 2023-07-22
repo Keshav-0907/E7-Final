@@ -75,7 +75,7 @@ const Footer = () => {
               },
             }}></FacebookIcon>
             </Link>
-            <Link to='https://wa.me/+917251070111' target='_blank'>
+            <Link to='https://wa.me/+919988000223' target='_blank'>
             <WhatsAppIcon sx={{
               padding: '10px',
               color: 'grey',
@@ -175,7 +175,7 @@ const Footer = () => {
             </Typography>
 
             <Typography  sx={{ padding: '5px'}}>
-              +91 9876543210
+              +91 9988000223
             </Typography>
           </Grid>
         </Grid>
