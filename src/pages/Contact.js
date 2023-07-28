@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef ,useState } from 'react';
 // import emailjs from '@emailjs/browser'
 import { Box, Button, Container, Typography } from '@mui/material'
 import { Grid } from '@mui/material'
@@ -10,29 +10,29 @@ import { Link } from 'react-router-dom'
 
 const Contact = () => {
 
-    const form = useRef();
-    function Submit(e) {
-        const formEle = document.querySelector("form");
-        const formDatab = new FormData(formEle);
-        fetch(
-          "https://script.google.com/macros/s/AKfycbzZnVaqNqyMohbDCPg1HLf35Uf_2U3dEpuqIsgNGH6r8ZZmOBZXjSAQM3dhU_m3w1ujbg/exec",
-          {
-            method: "POST",
-            body: formDatab
-          }
-        )
-        
-          .then((res) => res.json())
-          
-          .then((data) => {
-            console.log(data.text);
-            alert('Your message has been sent successfully. We will contact you soon!')
-          })
-          .catch((error) => {
-            console.log(error);
-          });
-      }
+    const form = useRef(null);
+    const scriptUrl =  "https://script.google.com/macros/s/AKfycbwzXF8qH-5xiPq7BdNPyV2W7UW4CcI7YT2gaLFRxD8o4yU28Q9L2UEZAJIe7Nw-gwC8/exec"
+    const [loading, setLoading] = useState(false)
 
+    const handleSubmit = (e) =>{
+        e.preventDefault()
+        setLoading(true)
+
+        fetch(scriptUrl, {
+        method: 'POST', 
+        body: new FormData(form.current),
+
+    }).then(res => {
+            console.log("SUCCESSFULLY SUBMITTED")
+            alert('Your message has been sent successfully. We will contact you soon!')
+            setLoading(false)
+        })
+        
+        .catch(err => console.log(err))
+        
+    }
+
+   
     // const sendEmail = (e) => {
     //     e.preventDefault();
 
@@ -109,7 +109,7 @@ const Contact = () => {
                         display: 'flex',
                         justifyContent: 'center',
                     }}>
-                        <form ref={form} onSubmit={(e) => Submit(e)} className="form-main">
+                        <form ref={form} onSubmit={handleSubmit} className="form-main">
                             <label>First Name *</label>
                             <input type="text" name="Name" required />
                             <label >Phone Number *</label>
@@ -151,4 +151,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
