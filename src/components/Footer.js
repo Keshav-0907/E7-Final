@@ -5,6 +5,8 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Button from '@mui/material/Button';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 
 const Footer = () => {
@@ -88,7 +90,7 @@ const Footer = () => {
               },
             }}></WhatsAppIcon>
             </Link>
-              <Link to='https://www.linkedin.com/in/seven-tech-219684275'>
+              <Link to='https://www.linkedin.com/in/seven-etech-219684275/'>
             <LinkedInIcon sx={{
               padding: '10px',
               color: 'grey',
@@ -132,7 +134,7 @@ const Footer = () => {
       </Container>
 
       {/* Contact Us  */}
-      <Container sx={{ display: 'flex', flexDirection: 'column' }}>
+      <Container sx={{ display: 'flex', flexDirection: 'column' , alignItems:'center', paddingLeft:'10px' }}>
         <Typography sx={{
           display: 'flex',
           justifyContent: 'center',
@@ -151,11 +153,13 @@ const Footer = () => {
 
           }}>
             <p> Shop No. 1, Ground Floor,155-C, Gher khatti, New Mandi, Muzaffarnagar ,Uttar Pradesh - 251001 </p>
+            
           </Typography>
 
           <Grid sx={{
             display: 'flex',
             justifyContent: 'center',
+            alignItems:"center",
           }}>
             {/* <Button sx={{
               color: '#fff',
@@ -169,7 +173,7 @@ const Footer = () => {
             </Button> */}
           </Grid>
 
-          <Grid sx={{ display: 'flex', justifyContent:'center', color:'grey'}}>
+          <Grid sx={{ display: 'flex', justifyContent:'center', color:'grey', alignItems:'center'}}>
             <Typography sx={{ padding: '5px'}}>
               Call Now : 
             </Typography>
@@ -177,7 +181,26 @@ const Footer = () => {
             <Typography  sx={{ padding: '5px'}}>
               +91 9988000223
             </Typography>
+           
           </Grid>
+          <Link style={{ color: 'white', textDecoration: 'none' }} to='https://maps.app.goo.gl/bRLCdRFWMm7zqonUA?g_st=iw'>
+          <Button sx={{
+                                backgroundColor: '#FF971E',
+                                color: '#fff',
+                                width: '80%',
+                                marginLeft:'10%',
+                                
+
+                                borderRadius: '20px',
+                                height: '45px',
+                                '&:hover': {
+                                    backgroundColor: '#FFB55F',
+                                    color: '#fff',
+                                },
+                            }}>
+                               Get Directions <LocationOnIcon />
+                            </Button>
+                            </Link>
         </Grid>
       </Container>
     </Box>

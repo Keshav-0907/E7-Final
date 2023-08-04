@@ -3,6 +3,8 @@ import React, { useRef ,useState } from 'react';
 import { Box, Button, Container, Typography } from '@mui/material'
 import { Grid } from '@mui/material'
 import { Link } from 'react-router-dom'
+import qr from '../Assets/QRu.jpeg'
+import '../App.css';
 
 
 
@@ -91,16 +93,38 @@ const Contact = () => {
             <Box sx={{
                 display: 'flex',
                 flexDirection: 'row',
+                '@media (max-width: 1200px)': {
+                    display:'flex',
+                    flexDirection:'column-reverse'
+                }
             }}>
+                
+
                 <Container sx={{
                     width: '50%',
-                    '@media (max-width: 1200px)': {
-                        display: 'none'
-                    }
+                    justifyContent: 'center',
+                    
+                   
+                   
 
                 }}>
-                    <img src="https://static.vecteezy.com/system/resources/previews/021/666/231/original/3d-rendering-of-a-customer-service-illustration-call-center-online-customer-support-contact-us-customer-service-for-personal-assistant-service-3d-rendering-png.png" width="600px" alt="err" />
+                   <Box sx={{ display: 'flex', flexDirection: 'column', textAlign: 'center', paddingTop: '20px' }} >
+                <Typography sx={{ fontSize: '25px'  ,'@media (max-width: 1200px)': {
+                   fontSize:'15px'
+                }}} >
+                7 E-tech Business Services 
+                </Typography>
+                <Typography sx={{fontSize:'15px' ,'@media (max-width: 1200px)': {
+                   fontSize:'10px'
+                }}}>
+                
+                Scan to Contact Us on WhatsApp
+                
+                </Typography>
+            </Box>
+                    <img src={qr}  alt="err"   className="contact-image"  />
                 </Container>
+
 
                 <Container sx={{
 
