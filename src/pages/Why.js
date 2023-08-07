@@ -12,7 +12,7 @@ const Why = () => {
         AOS.init();
      })
     return (
-        <Box data-aos="slide-up" data-aos-duration="2000">
+        <Box>
             <Container sx={{
                 textAlign: 'center'
             }}>
