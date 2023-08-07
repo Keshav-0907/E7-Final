@@ -2,10 +2,18 @@ import React from 'react'
 import { Box, Grid, Typography } from '@mui/material'
 import TestimonialCard from '../components/TestomonialCard'
 import { TestimonialData } from '../Data/TestimonialData'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 const Testimonials = () => {
+
+    useEffect(()=>{
+        AOS.init();
+     })
+
   return (
-    <Box sx={{ textAlign: 'center', marginY: '20px' }}>
+    <Box data-aos="slide-up" data-aos-duration="2000" sx={{ textAlign: 'center', marginY: '20px' }}>
 
     <Typography sx={{ fontSize: '40px', fontWeight: 'bold', padding: '0px 20px', marginTop: '10px' }}>
         What our clients says

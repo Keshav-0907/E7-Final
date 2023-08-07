@@ -6,11 +6,19 @@ import Button from '@mui/material/Button';
 import { Grid } from '@mui/material';
 import { OurServicesData } from '../Data/OurServicesData';
 import { Link } from 'react-router-dom';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 
 const OurServices = () => {
+
+    useEffect(()=>{
+        AOS.init();
+     })
+
     return (
-        <Box>
+        <Box data-aos="slide-up" data-aos-duration="2000">
             <Typography className="Service-Top">
                 <img className='Service-Line-Img' src={line} alt='err' />
                 <h1 style={{ fontSize: '50px' }}> Our Services </h1>
@@ -58,7 +66,7 @@ const OurServices = () => {
                 </FormControl> */}
             </Container>
 
-            <Container sx={{
+            <Container data-aos="slide-up" data-aos-duration="1000" sx={{
                 display: 'grid',
                 gridTemplateColumns: '1fr 1fr',
                 '@media (max-width: 1000px)': {

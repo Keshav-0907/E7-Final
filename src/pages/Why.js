@@ -3,10 +3,16 @@ import React from 'react'
 import Whyimg from '../Assets/Why.png'
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 const Why = () => {
+    useEffect(()=>{
+        AOS.init();
+     })
     return (
-        <Box>
+        <Box data-aos="slide-up" data-aos-duration="2000">
             <Container sx={{
                 textAlign: 'center'
             }}>

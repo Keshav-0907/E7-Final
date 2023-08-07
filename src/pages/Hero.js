@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Button } from '@mui/material';
 import Services from './OurServices';
 import Why from './Why';
@@ -6,8 +6,14 @@ import gif from '../Assets/gif 2.0.mp4';
 import '../App.css'
 import Testimonials from './Testimonials';
 import { Link } from 'react-router-dom';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Hero = () => {
+
+  useEffect(()=>{
+     AOS.init();
+  })
   return (
     <>
 
@@ -15,6 +21,7 @@ const Hero = () => {
         <video autoPlay loop muted >
           <source src={gif} type="video/mp4" />
         </video>
+
         <div className="caption">
           <div className='video-btn'>
             <Button sx={{
@@ -35,8 +42,7 @@ const Hero = () => {
       </div>
 
 
-
-      <Services />
+      <Services  />
       <Testimonials/>
       <Why />
     </>
