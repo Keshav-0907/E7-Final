@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Box, Button } from '@mui/material';
+import { Button } from '@mui/material';
 import Services from './OurServices';
 import Why from './Why';
 import gif from '../Assets/gif 2.0.mp4';
@@ -17,7 +17,7 @@ import Meesho from '../Assets/Meesho.png'
 import Myntra from '../Assets/Myntra.png'
 import Nykaa from '../Assets/Nykaa.png'
 import 'react-slideshow-image/dist/styles.css'
-import { Slide, SlideshowRef } from 'react-slideshow-image';
+import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import { useRef } from 'react';
 

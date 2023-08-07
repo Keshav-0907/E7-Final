@@ -48,62 +48,62 @@ const Footer = () => {
           <Grid sx={{
             display: 'flex',
             justifyContent: 'space-around',
-             marginTop:'60px',
+            marginTop: '60px',
 
           }}>
-            <Link  to='https://instagram.com/sevenetech?igshid=MzNlNGNkZWQ4Mg=='>
-            <InstagramIcon sx={{
-              padding: '10px',
-              color: 'grey',
-              '&:hover': {
-                backgroundColor: '#FFB55F',
-                color: '#fff',
-                borderRadius: '40px',
-                cursor: 'pointer'
+            <Link to='https://instagram.com/sevenetech?igshid=MzNlNGNkZWQ4Mg=='>
+              <InstagramIcon sx={{
+                padding: '10px',
+                color: 'grey',
+                '&:hover': {
+                  backgroundColor: '#FFB55F',
+                  color: '#fff',
+                  borderRadius: '40px',
+                  cursor: 'pointer'
 
-              },
-            }}></InstagramIcon>
+                },
+              }}></InstagramIcon>
             </Link >
             <Link to='https://www.facebook.com/profile.php?id=100092264030077&mibextid=ZbWKwL'>
-            <FacebookIcon sx={{
-              padding: '10px',
-              color: 'grey',
-              '&:hover': {
-                backgroundColor: '#FFB55F',
-                color: '#fff',
-                borderRadius: '20px',
-                cursor: 'pointer'
+              <FacebookIcon sx={{
+                padding: '10px',
+                color: 'grey',
+                '&:hover': {
+                  backgroundColor: '#FFB55F',
+                  color: '#fff',
+                  borderRadius: '20px',
+                  cursor: 'pointer'
 
-              },
-            }}></FacebookIcon>
+                },
+              }}></FacebookIcon>
             </Link>
             <Link to='https://wa.me/+919988000223' target='_blank'>
-            <WhatsAppIcon sx={{
-              padding: '10px',
-              color: 'grey',
-              '&:hover': {
-                backgroundColor: '#FFB55F',
-                color: '#fff',
-                borderRadius: '20px',
-                cursor: 'pointer'
+              <WhatsAppIcon sx={{
+                padding: '10px',
+                color: 'grey',
+                '&:hover': {
+                  backgroundColor: '#FFB55F',
+                  color: '#fff',
+                  borderRadius: '20px',
+                  cursor: 'pointer'
 
-              },
-            }}></WhatsAppIcon>
+                },
+              }}></WhatsAppIcon>
             </Link>
-              <Link to='https://www.linkedin.com/in/seven-etech-219684275/'>
-            <LinkedInIcon sx={{
-              padding: '10px',
-              color: 'grey',
-              '&:hover': {
-                backgroundColor: '#FFB55F',
-                color: '#fff',
-                borderRadius: '20px',
-                cursor: 'pointer'
+            <Link to='https://www.linkedin.com/in/seven-etech-219684275/'>
+              <LinkedInIcon sx={{
+                padding: '10px',
+                color: 'grey',
+                '&:hover': {
+                  backgroundColor: '#FFB55F',
+                  color: '#fff',
+                  borderRadius: '20px',
+                  cursor: 'pointer'
 
-              },
-            }}>
+                },
+              }}>
 
-            </LinkedInIcon>
+              </LinkedInIcon>
             </Link>
           </Grid>
 
@@ -134,7 +134,7 @@ const Footer = () => {
       </Container>
 
       {/* Contact Us  */}
-      <Container sx={{ display: 'flex', flexDirection: 'column' , alignItems:'center', paddingLeft:'10px' }}>
+      <Container sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', paddingLeft: '10px' }}>
         <Typography sx={{
           display: 'flex',
           justifyContent: 'center',
@@ -152,14 +152,14 @@ const Footer = () => {
             textAlign: 'center'
 
           }}>
-            <p> Shop No. 1, Ground Floor,155-C, Gher khatti, New Mandi, Muzaffarnagar ,Uttar Pradesh - 251001 </p>
-            
+            <p> E-38, 1st Floor, Sector-40 , Noida, Uttar Prades, India - 201301 </p>
+
           </Typography>
 
           <Grid sx={{
             display: 'flex',
             justifyContent: 'center',
-            alignItems:"center",
+            alignItems: "center",
           }}>
             {/* <Button sx={{
               color: '#fff',
@@ -173,34 +173,34 @@ const Footer = () => {
             </Button> */}
           </Grid>
 
-          <Grid sx={{ display: 'flex', justifyContent:'center', color:'grey', alignItems:'center'}}>
-            <Typography sx={{ padding: '5px'}}>
-              Call Now : 
+          <Grid sx={{ display: 'flex', justifyContent: 'center', color: 'grey', alignItems: 'center' }}>
+            <Typography sx={{ padding: '5px' }}>
+              Call Now :
             </Typography>
 
-            <Typography  sx={{ padding: '5px'}}>
+            <Typography sx={{ padding: '5px' }}>
               +91 9988000223
             </Typography>
-           
-          </Grid>
-          <Link style={{ color: 'white', textDecoration: 'none' }} to='https://maps.app.goo.gl/bRLCdRFWMm7zqonUA?g_st=iw'>
-          <Button sx={{
-                                backgroundColor: '#FF971E',
-                                color: '#fff',
-                                width: '80%',
-                                marginLeft:'10%',
-                                
 
-                                borderRadius: '20px',
-                                height: '45px',
-                                '&:hover': {
-                                    backgroundColor: '#FFB55F',
-                                    color: '#fff',
-                                },
-                            }}>
-                               Get Directions <LocationOnIcon />
-                            </Button>
-                            </Link>
+          </Grid>
+          <Link style={{ color: 'white', textDecoration: 'none' }} to='https://www.google.com/maps/dir/28.6435007,77.4895731/E-39,+E+Block,+Sector+40,+Noida,+Uttar+Pradesh+201303/@28.626923,77.3617096,12z/data=!3m1!4b1!4m10!4m9!1m1!4e1!1m5!1m1!1s0x390ce5954e96bebd:0x3b2bdad425547c5f!2m2!1d77.356382!2d28.568127!3e3?hl=en-IN&entry=ttu'>
+            <Button sx={{
+              backgroundColor: '#FF971E',
+              color: '#fff',
+              width: '80%',
+              marginLeft: '10%',
+
+
+              borderRadius: '20px',
+              height: '45px',
+              '&:hover': {
+                backgroundColor: '#FFB55F',
+                color: '#fff',
+              },
+            }}>
+              Get Directions <LocationOnIcon />
+            </Button>
+          </Link>
         </Grid>
       </Container>
     </Box>
